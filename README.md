@@ -1,3 +1,4 @@
+```python
 >>> import shenbin
 >>> shenbin.greeting
 "Hi, I'm Shenbin Qian, PhD student in NLP from the University of Surrey. Nice to meet you!"
@@ -11,3 +12,4 @@
 ("We are all in the gutter, but some of us are looking at the stars.")
 >>> shenbin.cv
 "https://shenbinqian.github.io/"
+```
