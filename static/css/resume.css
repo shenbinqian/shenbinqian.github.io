@@ -121,10 +121,6 @@ html p {
     border-radius: 2px;
     vertical-align: top;
 }
-.qrcode {
-    float: inline-end;
-    margin-top: 6px;
-}
 .key-pub {
     display: inline-block;
     text-align: justify;
