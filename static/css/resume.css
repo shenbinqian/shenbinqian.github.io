@@ -59,8 +59,8 @@ html p {
     background-image: url(../image/Group.png);
 }
 .personal-image {
-    width: 100px;
-    height: 100px;
+    width: 111px;
+    height: 135px;
 }
 .img-header .content {
     font-family: Courier;
@@ -121,19 +121,32 @@ html p {
     border-radius: 2px;
     vertical-align: top;
 }
-.key-pub {
-    display: inline-block;
-    text-align: justify;
-    color: #022643;
-    letter-spacing: 1.14px;
-    margin-bottom: 10px;
+.publications {
+    margin-top: 50px;
 }
+
+.publication-list {
+    margin-top: 30px;
+}
+
+.publication-item {
+    margin-bottom: 2em;
+}
+
 .pub-title {
-    margin: 15px 0; 
     font-weight: bold;
-    font-size: 16px;
+    margin-bottom: 0.3em;
     color: #022643;
-    letter-spacing: 1.14px;
+}
+
+.pub-authors {
+    font-style: italic;
+    margin-bottom: 0.3em;
+    color: #333;
+}
+
+.pub-venue {
+    color: #666;
 }
 
 section .title {
