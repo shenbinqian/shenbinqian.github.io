@@ -3,312 +3,454 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Shenbin Qian's Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shenbin Qian's Homepage</title>
     <link rel="stylesheet" href="./static/css/resume.css">
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="img-header">
-                <div class="content">
-                    <p><strong> Maths is Beautiful </strong></p>
-                </div>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <h1 class="site-title">Shenbin Qian's Homepage</h1>
+            <nav class="main-nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#news" class="nav-link">News</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#activities" class="nav-link">Professional Activities</a>
+                <a href="#honors" class="nav-link">Honors and Awards</a>
+                <a href="#collaborator" class="nav-link">Collaborators</a>
+            </nav>
+            <div class="header-icons">
+                <a href="mailto:s.qian@surrey.ac.uk" class="icon-link">✉</a>
+                <a href="https://scholar.google.com/citations?user=mJFaiMwAAAAJ&hl=en" class="icon-link">🔍</a>
+                <button class="theme-toggle">🌙</button>
             </div>
-        </header>
-        <main>
-            <div class="information-all">
-                <div class="col-6-asb">
-                    <div class="col-3 personal">
-                        <img class="personal-image" src="./static/image/person.jpg" alt="">
-                        <div class="contact">
-                            <p class="name">
-                                Shenbin Qian
-                            </p>
-                            <p class="email">s.qian@surrey.ac.uk</p>
-                            <a href="https://www.surrey.ac.uk/centre-translation-studies" class="institution1">Centre for Translation Studies</a>
-                            <p class="address">14LC03, Library Building</p>
-                            <p class="institution2">University of Surrey</p>
-                        </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="home-layout">
+                <div class="profile-sidebar">
+                    <img class="profile-image" src="./static/image/person.jpg" alt="Shenbin Qian">
+                    <h1 class="name">Shenbin Qian</h1>
+                    <p class="title">Postdoc Researcher</p>
+                    <p class="institution"><a href="https://www.uio.no/english/">University of Oslo</a></p>
+                    
+                    <div class="social-icons">
+                        <a href="mailto:s.qian@surrey.ac.uk" class="social-icon">📧</a>
+                        <a href="https://scholar.google.com/citations?user=mJFaiMwAAAAJ&hl=en" class="social-icon">🎓</a>
+                        <a href="https://github.com/shenbinqian" class="social-icon">💻</a>
+                        <a href="https://www.linkedin.com/in/shenbin-qian-063b95229/" class="social-icon">💼</a>
                     </div>
-                    <div class="col-9 item">
-                        <p class="title name">
-                            Bio
-                        </p>
-                        <div class="col-6-bio">
-                            <p>I recently completed my <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mJFaiMwAAAAJ&citation_for_view=mJFaiMwAAAAJ:_FxGoFyzp5QC">PhD in NLP</a> at <a href="https://www.surrey.ac.uk/people/shenbin-qian">the University of Surrey</a>, where I worked on the evaluation of machine translation for user-generated content using deep learning methods. During my PhD, I worked on projects in diverse machine learning fields—machine translation evaluation, information retrieval, text‐to‐image generation, and video understanding—and assessed their performance. </p>
-                            <p>I was a linguist in language and translation studies during my undergraduate years. Later, I self-taught programming languages and nurtured my interest in NLP after joining a technology company in 2017. I started applying statistical and deep learning methods to language and vision data during my MSc programme at the University of Exeter. My interest now is in investigating different aspects of large language models (LLMs) and the application of LLMs to various NLP subdomains, including the explainability and fairness of LLMs, and evaluation of multilinguality of LLMs etc. </p>
+                </div>
+
+                <div class="main-content-area">
+                    <div class="bio-section">
+                        <h2>Biography</h2>
+                        <p>I am a postdoc researcher at <a href="https://www.mn.uio.no/ifi/english/research/groups/ltg/">the Language Technology Group</a>, University of Oslo, as part of the Maria Skłodowska-Curie Action (MSCA) programme <a href="https://www.uio.no/dscience/english/dstrain/">DSTrain</a>. My current research focuses on the evaluation and explainability of large language models (LLMs). I earned <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mJFaiMwAAAAJ&citation_for_view=mJFaiMwAAAAJ:_FxGoFyzp5QC">my PhD</a> in Natural Language Processing (NLP) at the <a href="https://www.surrey.ac.uk/people/shenbin-qian">University of Surrey</a>, where I mainly worked on the evaluation of machine translation for user-generated content using deep learning methods. During my doctoral studies, I also contributed to projects in diverse machine learning fields, including machine translation evaluation, information retrieval, text‐to‐image generation, and video understanding.</p>
+                        <p>During my undergraduate years, I was a linguist in language and translation studies. Later, I self-taught programming languages and nurtured my interest in NLP after joining a technology company in 2017. I started applying statistical and deep learning methods to language and vision data during my MSc programme at the <a href="https://www.exeter.ac.uk/"> University of Exeter</a>. My interest now is in investigating different aspects of LLMs and the application of LLMs to various NLP subdomains, including the explainability and fairness of LLMs, and evaluation of multilinguality of LLMs, etc.</p>
+                    </div>
+
+                    <div class="info-sections">
+                        <div class="interests-section">
+                            <h3>Interests</h3>
+                            <div class="interest-tags">
+                                <span class="tag">🔠 Multilingual Evaluation</span>
+                                <span class="tag">🤖 LLM Evaluation</span>
+                                <span class="tag">📝 LLM Explainability</span>
+                                <span class="tag">😊 Sentiment Analysis</span>
+                                <span class="tag">💻 Machine Translation</span>
+                                <span class="tag">🔍 Information Retrieval</span>
+                                <span class="tag">📊 Sequence Labeling</span>
+                                <span class="tag">🗂️ Multimodal Generation</span>
+                            </div>
                         </div>
 
-                    </div>
-                </div>
-                <div class="col-6-asb">
-                    <div class="col-6">
-                        <div class="item">
-                            <p class="title">
-                                Education
-                            </p>
-                            <ul>
-                                <li>PhD in Machine Translation and Natural Language Processing, 2025</li>
-                                <p><em>University of Surrey</em>, UK</p>
-                                <li>MSc in Applied Data Science and Statistics, 2022</li>
-                                <p><em>University of Exeter</em>, UK</p>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="item">
-                            <p class="title">
-                                Interest
-                            </p>
-                            <div class="lang">
-                                <lable>Machine Translation</lable>
-                                <lable>Information Retrieval</lable>
-                                <lable>Sequence Labeling</lable>
-                                <lable>Application of Large Language Models</lable>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 contact">
-                        <div class="item">
-                            <p class="title">
-                                Follow Me
-                            </p>
-                            <div class="icon-container">
-                                <a href="https://www.linkedin.com/in/shenbin-qian-063b95229/" class="icon">
-                                    <img src="./static/image/link.png" alt="">
-                                </a>
-                                <a href="https://github.com/shenbinqian" class="icon">
-                                    <img src="./static/image/github.png" alt="">
-                                </a>
-                                <a href="https://scholar.google.com/citations?user=mJFaiMwAAAAJ&hl=en" class="icon">
-                                    <img src="./static/image/gscholar.png" alt="">
-                                </a>
-                            </div>
-                            <div class="qrcode">
-                                <img class="qr-image" src="./static/image/QRCode.jpg" alt="">
+                        <div class="education-section">
+                            <h3>Education</h3>
+                            <div class="education-list">
+                                <div class="education-item">
+                                    <span class="degree-icon">🎓</span>
+                                    <div class="education-details">
+                                        <p class="degree">PhD in Machine Translation and Natural Language Processing, 2025</p>
+                                        <p class="institution-name">University of Surrey, UK</p>
+                                    </div>
+                                </div>
+                                <div class="education-item">
+                                    <span class="degree-icon">🎓</span>
+                                    <div class="education-details">
+                                        <p class="degree">MSc in Applied Data Science and Statistics, 2022</p>
+                                        <p class="institution-name">University of Exeter, UK</p>
+                                    </div>
+                                </div>
+                                <div class="education-item">
+                                    <span class="degree-icon">🎓</span>
+                                    <div class="education-details">
+                                        <p class="degree">MA in Translation and Interpreting, 2017</p>
+                                        <p class="institution-name">Xihua University, China</p>
+                                    </div>
+                                </div>
+                                <div class="education-item">
+                                    <span class="degree-icon">🎓</span>
+                                    <div class="education-details">
+                                        <p class="degree">BA in English, 2014</p>
+                                        <p class="institution-name">Zhijiang College, Zhejiang University of Technology, China</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <section class="publications">
-                <div class="title publication">
-                    <p>Publications</p>
-                </div>
-                <div class="key-pub">
-                    <div class="publication-list">
-                        <div class="publication-item">
-                            <p class="pub-title">ALOPE: Adaptive Layer Optimization for Translation Quality Estimation using Large Language Models</p>
-                            <p class="pub-authors">Archchana Sindhujan, Shenbin Qian, Chan Chi Chun Matthew, Diptesh Kanojia, Constantin Orasan</p>
-                            <p class="pub-venue"><em>Accepted by the Second Conference on Language Modeling (COLM 2025)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://www.arxiv.org/abs/2506.19743">NEAR2: A Nested Embedding Approach to Efficient Product Retrieval and Ranking</a></p>
-                            <p class="pub-authors">Shenbin Qian, Diptesh Kanojia, Samarth Agrawal, Hadeel Saadany, Swapnil Bhosale, Constantin Orasan, Zhe Wu</p>
-                            <p class="pub-venue"><em>Accepted by SIGIR-e-Com'25: SIGIR Workshop on eCommerce</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2025.wnut-1.11/">Automatically Generating Chinese Homophone Words to Probe Machine Translation Estimation Systems</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orasan, Diptesh Kanojia, Félix Do Carmo</p>
-                            <p class="pub-venue"><em>Proceedings of the Tenth Workshop on Noisy and User-generated Text (W-NUT 2025)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2025.loreslm-1.33/">When LLMs Struggle: Reference-less Translation Evaluation for Low-resource Languages</a></p>
-                            <p class="pub-authors">Archchana Sindhujan, Diptesh Kanojia, Constantin Orasan, Shenbin Qian</p>
-                            <p class="pub-venue"><em>Proceedings of the First Workshop on Language Models for Low-Resource Languages (LoResLM 2025)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2024.emnlp-main.214/">What do Large Language Models Need for Machine Translation Evaluation?</a></p>
-                            <p class="pub-authors">Shenbin Qian, Archchana Sindhujan, Minnie Kabra, Diptesh Kanojia, Constantin Orăsan, Tharindu Ranasinghe, Fred Blain</p>
-                            <p class="pub-venue"><em>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2024.wmt-1.113/">A Multi-task Learning Framework for Evaluating Machine Translation of Emotion-loaded User-generated Content</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orăsan, Diptesh Kanojia, Félix do Carmo</p>
-                            <p class="pub-venue"><em>Proceedings of the Ninth Conference on Machine Translation (WMT24)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2024.wat-1.4/">Are Large Language Models State-of-the-art Quality Estimators for Machine Translation of User-generated Content?</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orăsan, Diptesh Kanojia, Félix do Carmo</p>
-                            <p class="pub-venue"><em>Proceedings of the Eleventh Workshop on Asian Translation (WAT 2024)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2024.eamt-2.22/">Evaluating Machine Translation for Emotion-loaded User Generated Content (TransEval4Emo-UGC)</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orăsan, Félix do Carmo, Diptesh Kanojia</p>
-                            <p class="pub-venue"><em>Proceedings of the 25th Annual Conference of the European Association for Machine Translation (EAMT2024)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2024.lrec-main.270/">Character-level language models for abbreviation and long-form detection.</a></p>
-                            <p class="pub-authors">Leonardo Zilio*, Shenbin Qian*, Diptesh Kanojia, Constantin Orăsan</p>
-                            <p class="pub-venue"><em>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2023.mtsummit-users.21/">Challenges of Human vs Machine Translation of Emotion-Loaded Chinese Microblog Texts.</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orăsan, Félix do Carmo, Diptesh Kanojia</p>
-                            <p class="pub-venue"><em>Proceedings of the Machine Translation Summit XIX, Vol. 2: User Track (MTSUMMIT XIX)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2023.eamt-1.13/">Evaluation of Chinese-English Machine Translation of Emotion-Loaded Microblog Texts:  A Human Annotated Dataset for the Quality Assessment of Emotion Translation.</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orăsan, Félix do Carmo, Qiuliang Li, Diptesh Kanojia</p>
-                            <p class="pub-venue"><em>Proceedings of the 24th Annual Conference of the European Association for Machine Translation (EAMT2023)</em></p>
-                        </div>
-                        <div class="publication-item">
-                            <p class="pub-title"><a href="https://aclanthology.org/2022.wassa-1.29/">SURREY-CTS-NLP at WASSA2022:  An Experiment of Discourse and Sentiment Analysis for the Prediction of Empathy, Distress and Emotion.</a></p>
-                            <p class="pub-authors">Shenbin Qian, Constantin Orăsan, Diptesh Kanojia, Hadeel Saadany, Félix do Carmo</p>
-                            <p class="pub-venue"><em>Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA2022)</em></p>
-                        </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="section">
+            <div class="content-wrapper">
+                <h2>Recent News</h2>
+                <div class="news-list">
+                    <div class="news-item">
+                        <span class="news-date">[11/07/25]</span>
+                        <span class="news-content">🎉 Secured a MSCA postdoc fellowship on LLM evaluation at the University of Oslo.</span>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">[08/07/25]</span>
+                        <span class="news-content">🥳 Our paper <a href="https://arxiv.org/abs/2508.07484">ALOPE: Adaptive Layer Optimization for Translation Quality Estimation using Large Language Models</a> has been accepted by COLM 2025. Congrats to the team!</span>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">[26/04/25]</span>
+                        <span class="news-content">🥳 Our paper <a href="https://www.arxiv.org/abs/2506.19743">NEAR2: A Nested Embedding Approach to Efficient Product Retrieval and Ranking</a> has been published on SIGIR-e-Com'25. Congratulats to the team!</span>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">[March 25]</span>
+                        <span class="news-content">🎉 Successfully defended PhD thesis: <a href="https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Evaluating-Machine-Translation-of-Emotion-loaded-Chinese/99997266602346">Evaluating Machine Translation of Emotion-loaded Chinese User-generated Content</a></span>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">[Jan 25]</span>
+                        <span class="news-content">Started a new research project on evaluating video understanding models, funded by RNIB.</span>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">[30/10/24]</span>
+                        <span class="news-content">Invited talk for a research seminar on "Evaluating MT of Chinese User-generated Content" by <a href="https://languagestranslationandmediaatswansea.wordpress.com/translation-lunchtimes-sting/">@STINGSwansea</a></span>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="title project">
-                    <p>Research Projects</p>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="content-wrapper">
+                <div class="section-header">
+                    <h2>Recent Publications</h2>
+                    <a href="https://scholar.google.com/citations?user=mJFaiMwAAAAJ&hl=en" class="view-all" target="_blank">View all publications</a>
                 </div>
-                <div class="project-detail">
-                    <div class="col-3-abs" id="project-0">
-                        <div class="project-content"> <img src="./static/image/surrey.jpg" alt="">
-                            <p class="project-title">University of Surrey's SME Innovation Voucher Scheme</p>
-                            <p class="create-time">Mar, 2022 - Jun, 2022</p>
-                            <p class="decription"> Led by Prof Constantin Orasan, collaborated with <a href="https://www.monacosolicitors.co.uk/">Monaco Solicitors (MS)</a>, this project investigated ways in which NLP technologies can help improve an award-winning tool developed by MS so that users are able to better understand and implement their legal rights freely.</p>
-                        </div>
-                        <div class="link-to">
-                            <a href="https://www.surrey.ac.uk/news/using-natural-language-processing-help-people-access-justice" class="button">More Details</a>
-                            <div class="shadow"></div>
-                        </div>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <h4><a href="https://arxiv.org/abs/2508.07484">Adaptive Layer Optimization for Translation Quality Estimation using Large Language Models</a></h4>
+                        <p class="authors">Archchana Sindhujan, <strong>Shenbin Qian</strong>, Chan Chi Chun Matthew, Diptesh Kanojia, Constantin Orasan</p>
+                        <p class="venue"><em>Accepted by the Second Conference on Language Modeling (COLM 2025)</em></p>
                     </div>
-                    <div class="col-3-abs" id="project-1">
-                        <div class="project-content"> <img src="./static/image/met.png" alt="">
-                            <p class="project-title">Downscaling of Numerical Weather Prediction Data</p>
-                            <p class="create-time">Sept, 2021 - Dec, 2021</p>
-                            <p class="decription">This was the MSc project of Shenbin Qian with the UK Met Office at the University of Exeter. 
-                                The main purpose was to use low-resolution numerical weather prediction data to generate high-resolution data using deep learning techniques, especially single image super resolution (SR) techniques like SRCNN and SRGAN.</p>
-                        </div>
-                        <div class="link-to">
-                            <a href="https://github.com/shenbinqian/deep_downscaling" class="button">More Details</a>
-                            <div class="shadow"></div>
-                        </div>
+                    <div class="publication-item">
+                        <h4><a href="https://www.arxiv.org/abs/2506.19743">NEAR2: A Nested Embedding Approach to Efficient Product Retrieval and Ranking</a></h4>
+                        <p class="authors"><strong>Shenbin Qian</strong>, Diptesh Kanojia, Samarth Agrawal, Hadeel Saadany, Swapnil Bhosale, Constantin Orasan, Zhe Wu</p>
+                        <p class="venue"><em>SIGIR-e-Com'25: SIGIR Workshop on eCommerce</em></p>
                     </div>
-                    <div class="col-3-abs endline" id="project-2">
-                        <div class="project-content"> <img src="./static/image/ebay.png" alt="">
-                            <p class="project-title">E-commerce Product Retrieval</p>
-                            <p class="create-time">Feb, 2023 - Dec, 2024</p>
-                            <p class="decription"> Led by Dr Diptesh Kanojia at University of Surrey, this project is funded by eBay to build lightweight contextual character-based embeddings for product retrieval. This research aims to improve search accuracy and relevance on eBay's e-commerce platforms.</p>
-                        </div>
-                        <div class="link-to">
-                            <a href="https://www.surrey.ac.uk/nature-inspired-computing-and-engineering-research-group/natural-language-processing" class="button">More Details</a>
-                            <div class="shadow"></div>
-                        </div>
+                    <div class="publication-item">
+                        <h4><a href="https://aclanthology.org/2025.wnut-1.11/">Automatically Generating Chinese Homophone Words to Probe Machine Translation Estimation Systems</a></h4>
+                        <p class="authors"><strong>Shenbin Qian</strong>, Constantin Orasan, Diptesh Kanojia, Félix Do Carmo</p>
+                        <p class="venue"><em>Proceedings of the Tenth Workshop on Noisy and User-generated Text (W-NUT 2025)</em></p>
+                    </div>
+                    <div class="publication-item">
+                        <h4><a href="https://aclanthology.org/2024.emnlp-main.214/">What do Large Language Models Need for Machine Translation Evaluation?</a></h4>
+                        <p class="authors"><strong>Shenbin Qian</strong>, Archchana Sindhujan, Minnie Kabra, Diptesh Kanojia, Constantin Orăsan, Tharindu Ranasinghe, Fred Blain</p>
+                        <p class="venue"><em>Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)</em></p>
+                    </div>
+                    <div class="publication-item">
+                        <h4><a href="https://aclanthology.org/2024.wmt-1.113/">A Multi-task Learning Framework for Evaluating Machine Translation of Emotion-loaded User-generated Content</a></h4>
+                        <p class="authors"><strong>Shenbin Qian</strong>, Constantin Orăsan, Diptesh Kanojia, Félix do Carmo</p>
+                        <p class="venue"><em>Proceedings of the Ninth Conference on Machine Translation (WMT24)</em></p>
+                    </div>
+                    <div class="publication-item">
+                        <h4><a href="https://aclanthology.org/2024.lrec-main.270/">Using character-level models for efficient abbreviation and long-form detection</a></h4>
+                        <p class="authors">*Leonardo Zilio, <strong>*Shenbin Qian</strong>, Diptesh Kanojia, and Constantin Orasan</p>
+                        <p class="venue"><em>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</em></p>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="title work">
-                    <p>Work Exeprience</p>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <div class="content-wrapper">
+                <h2>Research Projects</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <h4>Evaluating Video Understanding Models</h4>
+                        <p class="project-period">Jan - September 2025 | Funded by <a href="https://www.rnib.org.uk/">RNIB</a></p>
+                        <p>This project aims to evaluate the textual descriptions generated by state-of-the-art video understanding models. These textual descriptions are used to synthesize audios to describe the scenes in TV series for the visually impaired people. This project is led by <a href="https://www.surrey.ac.uk/people/sabine-braun">Prof Sabine Braun</a>, funded by the Royal National Institute of Blind People (RNIB) in UK, in collaboration with BBC. I am responsible for video data processing, finding and running state-of-the-art video understanding models, and helping design prompts to generate audio descriptions for human evaluation.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>E-commerce Product Retrieval</h4>
+                        <p class="project-period">Jan 2023 - Dec 2024 | Funded by <a href="https://www.ebayinc.com/company/">eBay</a></p>
+                        <p>This project aimed to develop efficient and effective language models and build lightweight contextual character-based embeddings for product retrieval. This research aimed to improve search accuracy and relevance on eBay's e-commerce platforms. The project was funded by eBay and led by <a href="https://www.surrey.ac.uk/people/diptesh-kanojia">Dr Diptesh Kanojia</a>. I was one of the main investigator for developing algorithms based on eBay's e-commerce datasets to achieve efficient and effective product retrieval and ranking.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4>Post-editing Translations of User-generated Content</h4>
+                        <p class="project-period">Jan - Dec 2023 | Funded by <a href="https://eamt.org/2022/08/01/eamt-sponsorship-of-activities-students-edition-2022/">EAMT</a></p>
+                        <p>I led this student project funded by the European Association for Machine Translation (EAMT) to collect post-edited reference translations from professional translators to evaluate machine translation of emotion-loaded user-generated content. I utilized this dataset to train automatic machine translation evaluation systems in my PhD. The dataset is publicly available at the <a href="https://github.com/surrey-nlp/HADQAET">GitHub repository</a> of <a href="https://github.com/surrey-nlp">Surrey NLP</a>.</p>
+                    </div>
+                    <div class="project-item">
+                        <h4><a href="https://www.surrey.ac.uk/news/using-natural-language-processing-help-people-access-justice">Using NLP to Help People Access Justice</a></h4>
+                        <p class="project-period">Mar - Jun 2022 | Funded by University of Surrey</p>
+                        <p>This project investigated ways in which NLP technologies can help improve an award-winning tool developed by Monaco Solicitors, a solicitor company, to enable users to better understand and implement their legal rights freely. This project was funded by the University of Surrey and led by <a href="https://www.surrey.ac.uk/people/constantin-orasan">Prof Constantin Orasan</a>. I was the main investigator to explore the topics of the letters from customers of the solicitor company using topic modeling.</p>
+                    </div>
                 </div>
-                <div class="w-experience-detail">
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/surrey.png" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Jul, 2024 - Dec, 2024</p>
-                            <p class="job">Research Assistant in Natural Language Processing | University of Surrey</p>
-                            <ul>
-                                <li>Develop efficient and effective language models for product retrieval on eBay's e-commerce platforms.</li>
-                            </ul>
-                        </div>
+            </div>
+        </section>
+
+        <!-- Professional Activities Section -->
+        <section id="activities" class="section">
+            <div class="content-wrapper">
+                <h2>Professional Activities</h2>
+                <div class="activities-content">
+                    <div class="activity-section">
+                        <h3>Reviewer/Program Committee Member</h3>
+                        <ul class="reviewer-list">
+                            <li><strong>ACL ARR</strong> reviewer since June 2024</li>
+                            <li><strong>COLING</strong> 2022, 2024, 2025</li>
+                            <li><strong>MT Summit</strong> 2025</li>
+                            <li><strong>Computer Speech & Language</strong> 2022, 2024</li>
+                        </ul>
                     </div>
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/lancoo.png" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Jan, 2017 – Dec, 2020</p>
-                            <p class="job">Resource Engineer & Project Manager | <a href="https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/lancoo.html">Lancoo Group</a></p>
-                            <ul>
-                                <li>Crawled English teaching resources online for human cleaning and annotation;</li>
-                                <li>Established and maintained feature databases for knowledge recognition to identify English words, phrases and 
-                                    sentence (syntactic) patterns for teaching purposes, achieving an accuracy of 99%, 98% and 97% respectively;</li>
-                                <li>Managed the whole team and the project, and cooperated with other teams to integrete the project into the AI-IOT Smart Campus Solution.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/hujiang.png" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Nov, 2015 - Mar, 2017</p>
-                            <p class="job">Part-Time English Teacher | <a href="https://www.hjenglish.com/">Hujiang English</a></p>
-                            <ul>
-                                <li>Taught Chinese adult students basic spoken English and English pronunciation.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/hexin.jpg" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Apr, 2014 - Jun, 2014</p>
-                            <p class="job">Part-Time English Translator | <a href="https://www.linkedin.com/company/%E6%B5%99%E6%B1%9F%E6%A0%B8%E6%96%B0%E5%90%8C%E8%8A%B1%E9%A1%BA%E7%BD%91%E7%BB%9C%E4%BF%A1%E6%81%AF%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/?originalSubdomain=cn">Hithink Royalflush Information Network</a></p>
-                            <ul>
-                                <li>Translated the profiles and financial information of listed companies.</li>
-                            </ul>
+                    
+                    <div class="activity-section">
+                        <h3>Work Experience</h3>
+                        <div class="work-list">
+                            <div class="work-item">
+                                <h4>Research Assistant in Natural Language Processing</h4>
+                                <p class="company">University of Surrey | Jul - Dec 2024</p>
+                                <p>Trained language models on e-commerce data in eBay to enhance product retrieval and ranking efficiency.</p>
+                            </div>
+                            <div class="work-item">
+                                <h4>Resource Engineer & Project Manager</h4>
+                                <p class="company"><a href="https://www.intel.com/content/www/us/en/internet-of-things/ai-in-production/partners/lancoo.html">Lancoo Group</a>, China | Jan 2017 - Dec 2020</p>
+                                <p>Established and maintained annotated-feature databases for rule-based parsing systems, achieving accuracy of 99%, 98% and 97% respectively for English words, phrases and sentence patterns.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="title awards">
-                    <p>Recent Awards</p>
-                </div>
-                <div class="w-experience-detail">
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/EAMT.png" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Jan, 2023</p>
-                            <p class="job">EAMT Award for Sponsorship of Student Activities</p>
-                            <ul>
-                                <li> As part of its commitment to promote research, development and awareness about translation technologies, 
-                                    the European Association of Machine Translation (EAMT) for the third consecutive year launched a call for proposals to fund MT-related activities led by students during 2023.</li>
-                            </ul>
-                        </div>
+            </div>
+        </section>
+
+        <!-- Honors Section -->
+        <section id="honors" class="section">
+            <div class="content-wrapper">
+                <h2>Recent Honors & Awards</h2>
+                <div class="awards-list">
+                    <div class="award-item">
+                        <h4>EAMT Award for 2022 Sponsorship of Student Activities</h4>
+                        <p class="award-date">Jan 2023</p>
+                        <p>As part of its commitment to promote research, development and awareness about translation technologies, the European Association for Machine Translation (EAMT) funded MT-related activities led by students during 2023.</p>
                     </div>
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/exe_new.png" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Apr, 2022</p>
-                            <p class="job">Winner of the MSc Project Award</p>
-                            <ul>
-                                <li>This was awarded to the student with the best project for the year on an Mathematics MSc Programmme in the University of Exeter.</li>
-                            </ul>
-                        </div>
+                    <div class="award-item">
+                        <h4>Winner of the MSc Project Award</h4>
+                        <p class="award-date">Apr 2022</p>
+                        <p>Awarded to the student with the best project for the year on a Mathematics MSc Programme at the University of Exeter.</p>
                     </div>
-                    <div class="item w-experience-content">
-                        <div class="logo">
-                            <img class="company-logo" src="./static/image/exe_old.png" alt="">
-                        </div>
-                        <div class="work-content">
-                            <p class="create-time">Apr, 2020</p>
-                            <p class="job">Global Excellence Scholarship</p>
-                            <ul>
-                                <li>The scholarship recipients were selected on academic merit and the ability to demonstrate academic ambition and future career ambitions.</li>
-                            </ul>
-                        </div>
+                    <div class="award-item">
+                        <h4>Global Excellence Scholarship</h4>
+                        <p class="award-date">Apr 2020</p>
+                        <p>Selected based on academic merit and the ability to demonstrate academic ambition and future career goals at the University of Exeter.</p>
+                    </div>
+                    <div class="award-item">
+                        <h4>Prize for the "Best Team of the Year"</h4>
+                        <p class="award-date">Jan 2020</p>
+                        <p>Awarded by Lancoo Group for outstanding team performance and project management.</p>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <p class="footer">© github.com</p>
-        </footer>
-    </div>
+            </div>
+        </section>
+
+        <!-- Collaborator Section -->
+        <section id="collaborator" class="section">
+            <div class="content-wrapper">
+                <h2>Key Collaborators</h2>
+                <div class="collaborator-grid">
+                    <div class="collaborator-card">
+                        <img src="./static/image/constantin orasan.jpg" alt="Constantin Orasan" class="collaborator-photo">
+                        <h4 class="collaborator-name">Constantin Orasan</h4>
+                        <p class="collaborator-institution">University of Surrey</p>
+                        <p class="collaborator-position">Professor of Language and Translation Technologies</p>
+                        <div class="collaborator-links">
+                            <a href="https://dinel.org.uk/" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:c.orasan@surrey.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=BIFDGBkAAAAJ&hl=en" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/constantinorasan/?originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+                    
+                    <div class="collaborator-card">
+                        <img src="./static/image/félix do carmo.jpg" alt="Félix do Carmo" class="collaborator-photo">
+                        <h4 class="collaborator-name">Félix do Carmo</h4>
+                        <p class="collaborator-institution">University of Surrey</p>
+                        <p class="collaborator-position">Senior Lecturer in Translation and Natural Language Processing</p>
+                        <div class="collaborator-links">
+                            <a href="https://www.surrey.ac.uk/people/felix-do-carmo" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:f.docarmo@surrey.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=MF9s2xsAAAAJ&hl=en" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/f%C3%A9lix-do-carmo-bb171122/?originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/yves scherrer.jpg" alt="Yves Scherrer" class="collaborator-photo">
+                        <h4 class="collaborator-name">Yves Scherrer</h4>
+                        <p class="collaborator-institution">University of Oslo</p>
+                        <p class="collaborator-position">Associate Professor in Natural Language Processing</p>
+                        <div class="collaborator-links">
+                            <a href="https://blogs.helsinki.fi/yvesscherrer/" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:yves.scherrer@ifi.uio.no" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=SyQu88MAAAAJ&hl=de" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/yves-scherrer-925850/" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/diptesh kanojia.jpg" alt="Diptesh Kanojia" class="collaborator-photo">
+                        <h4 class="collaborator-name">Diptesh Kanojia</h4>
+                        <p class="collaborator-institution">University of Surrey</p>
+                        <p class="collaborator-position">Senior Lecturer in People-Centred AI</p>
+                        <div class="collaborator-links">
+                            <a href="https://dipteshkanojia.co.uk/" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:d.kanojia@surrey.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=UNCgCAEAAAAJ&hl=en" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/dipteshkanojia/?originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/leonardo zilio.jpg" alt="Leonardo Zilio" class="collaborator-photo">
+                        <h4 class="collaborator-name">Leonardo Zilio</h4>
+                        <p class="collaborator-institution">Université catholique de Louvain</p>
+                        <p class="collaborator-position">Assistant Professor in Translation Studies</p>
+                        <div class="collaborator-links">
+                            <a href="https://www.uclouvain.be/en/people/leonardo.zilio" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:leonardo.zilio@uclouvain.be" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=Behl4kwAAAAJ&hl=en" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/leonardo-zilio-425096175/?originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/sui he.jpg" alt="Sui He" class="collaborator-photo">
+                        <h4 class="collaborator-name">Sui He</h4>
+                        <p class="collaborator-institution">University of Swansea</p>
+                        <p class="collaborator-position">Senior Lecturer in AI-Aided Intercultural Communication</p>
+                        <div class="collaborator-links">
+                            <a href="https://github.com/Maiatlasui" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:sui.he@swansea.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=1_NveToAAAAJ&hl=en" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/suihe/?trk=pub-pbmap&originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/tharindu ranasinghe.jpg" alt="Tharindu Ranasinghe" class="collaborator-photo">
+                        <h4 class="collaborator-name">Tharindu Ranasinghe</h4>
+                        <p class="collaborator-institution">Lancaster University</p>
+                        <p class="collaborator-position">Lecturer in Security and Protection Science</p>
+                        <div class="collaborator-links">
+                            <a href="https://tharindu.co.uk/" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:t.ranasinghe@lancaster.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.co.uk/citations?hl=en&user=9t7WhIIAAAAJ" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/tharinduranasinghe/?originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/archchana sindhujan.jpg" alt="Archchana Sindhujan" class="collaborator-photo">
+                        <h4 class="collaborator-name">Archchana Sindhujan</h4>
+                        <p class="collaborator-institution">University of Surrey</p>
+                        <p class="collaborator-position">PhD in Multilingual Evaluation</p>
+                        <div class="collaborator-links">
+                            <a href="https://www.surrey.ac.uk/people/archchana-sindhujan" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:a.sindhujan@surrey.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="https://scholar.google.com/citations?user=BlObQHUAAAAJ&hl=en" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/archchana-sindhujan-b21b2b10b/?originalSubdomain=uk" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+
+                    <div class="collaborator-card">
+                        <img src="./static/image/xinran liu.jpg" alt="Xinran Liu" class="collaborator-photo">
+                        <h4 class="collaborator-name">Xinran Liu</h4>
+                        <p class="collaborator-institution">University of Surrey</p>
+                        <p class="collaborator-position">PhD in Dance Motion Generation</p>
+                        <div class="collaborator-links">
+                            <a href="https://www.surrey.ac.uk/people/xinran-liu" class="social-link" title="Personal Website">🏠</a>
+                            <a href="mailto:xinran.liu@surrey.ac.uk" class="social-link" title="Email">📧</a>
+                            <a href="#" class="social-link" title="Google Scholar">🎓</a>
+                            <a href="https://www.linkedin.com/in/xinran-liu-396a3b292/" class="social-link" title="LinkedIn">💼</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Smooth scrolling navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all nav links
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                
+                // Add active class to clicked nav link
+                this.classList.add('active');
+                
+                // Scroll to target section
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Update navigation on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let currentSection = '';
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 100 && rect.bottom > 100) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.querySelector('.theme-toggle');
+        themeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-theme');
+            this.textContent = document.body.classList.contains('dark-theme') ? '☀️' : '🌙';
+        });
+    </script>
 </body>
 
 </html>
